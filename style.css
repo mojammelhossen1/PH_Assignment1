@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
+
+
+/* font-family: 'Lobster',
+cursive;
+font-family: 'Manrope',
+sans-serif;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Yeseva One',
+cursive; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*! sections 1 start here */
+
+/* section {
+    width: 100vw;
+} */
+
+.container {
+    /* max-width: 1480px; */
+    max-width: 1350px;
+    display: flex;
+    margin: auto;
+}
+
+/* .secOne .container {} */
+
+.firstSide {
+    width: 50%;
+}
+
+.secOne .container .firstSide .heading-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 119px;
+    width: 4px;
+    background-color: #FF5959;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.secOne .container .firstSide .heading-wrapper {
+    margin-top: 140px;
+}
+
+.secOne .container .firstSide .heading-wrapper h1 {
+    margin-left: 13px;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Yeseva One',
+        cursive;
+}
+
+.yellow-text {
+    color: #FFAD5A !important;
+}
+
+.secOne .container .firstSide .description {
+    width: 471px;
+}
+
+.description {
+    margin-top: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+
+button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.common-span {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #434343;
+}
+
+.secondSide {
+    width: 50%;
+}
+
+.secondSide .image-wrapper {
+    position: relative;
+}
+
+.secondSide .image-wrapper img {
+    position: absolute;
+    width: 540px;
+    right: 0;
+    margin-top: -100px;
+}
+
+/*! sections 1 end here */
+
+
+
+/*! sections 2 start here */
+.secTwo {
+    margin-top: 150px;
+    background: url(./images/dotted/dotted1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 470px;
+    padding-bottom: 110px;
+}
+
+.secTwo h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins',
+        sans-serif;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.secTwo .container {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.secTwo .container .card {
+    width: 100%;
+    height: 400px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.secTwo .container .card1 {
+    background-color: rgba(79, 157, 166, 0.1);
+
+}
+
+.secTwo .container .card2 {
+    background: rgba(255, 89, 89, 0.1);
+
+}
+
+.secTwo .container .card3 {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.secTwo .container img {
+    width: 141px;
+    margin-bottom: 12px;
+}
+
+.secTwo .container .card .card-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+/*! sections 2 end here */
+
+
+/*! sections 3 & 4 start here */
+.secThree {
+    /* width: 1140px; */
+    margin: auto;
+    padding-bottom: 75px;
+    background: url(./images/dotted/dotted1.png);
+    background-repeat: no-repeat;
+    background-position-y: 310px;
+
+}
+
+/* .secThree .container {
+    width: 100%;
+
+} */
+
+
+
+.secThree .container .firstSide {
+    width: 35%;
+
+
+}
+
+.secThree .container .firstSide .bg-wrapper {
+    position: relative;
+    transform: translate(-103px, 57px);
+    z-index: -100;
+}
+
+.secFour .container .firstSide .bg-wrapper {
+    position: relative;
+    transform: translate(256px, 249px);
+    z-index: -100;
+}
+
+
+
+.secThree .container .firstSide .bg-wrapper img,
+.secFour .container .firstSide .bg-wrapper img {
+    position: absolute;
+    width: 227px;
+}
+
+.secThree .container .firstSide .image-wrapper,
+.secFour .container .firstSide .image-wrapper {
+    width: 400px;
+}
+
+.secFour .container .firstSide {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secThree .container .firstSide .image-wrapper img,
+.secFour .container .firstSide .image-wrapper img {
+    width: 400px;
+}
+
+.secThree .container .secondSide,
+.secFour .container .secondSide {
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* .secThree .container .secondSide .heading-wrapper {} */
+
+.secThree .container .secondSide .heading-wrapper h1,
+.secFour .container .secondSide .heading-wrapper h1 {
+    color: #333333;
+    font-size: 36px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+}
+
+.secThree .container .secondSide .description,
+.secFour .container .secondSide .description {
+    width: 880px;
+}
+
+/*! sections 3 & 4 end here */
+
+
+
+/*! sections 5 start here */
+
+
+.secFive {
+    margin-top: 100px;
+
+}
+
+.secFive h1 {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.secFive .container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.secFive .container h1 {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+
+.secFive .container .firstSide img {
+
+    width: 338px;
+}
+
+
+
+.secFive .container .secondSide {
+    width: auto;
+    margin-left: 200px;
+}
+
+/*! sections 5 end here */
+
+
+/* ! footer start here */
+
+footer {
+    background-color: #0B0D17;
+    margin-top: 140px;
+
+}
+
+footer .container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+
+}
+
+footer .container h1 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Lobster',
+        cursive;
+    color: #FFFFFF;
+}
+
+footer .container h1 .year {
+    color: #FF5959;
+}
+
+footer .container p {
+    font-size: 14px;
+    color: #D9DBE1;
+    font-weight: 400;
+    font-family: 'Manrope',
+        sans-serif;
+    margin-top: 24px;
+}
+
+/* ! footer end here */
